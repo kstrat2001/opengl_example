@@ -37,7 +37,7 @@ Add a second full-screen pixel shader view like the one above (probably an insta
 
 - Multisampling will be enabled only if an OpenGL ES 3 context is successfully created.  This could be changed to work for ES2 and ES1 as well with more work.
 - The drawables load their resources individually.  This is not the most efficient and could be redone using managers for resources like models, textures, shaders, etc.
-- I only used GLKit for math.  GLKit dependence could be removed completely if a cross platform math library were implemented as well as a texture loader.
+- I only used GLKit for math and texture loading.  GLKit dependence could be removed completely if a cross platform math library and texture loader were implemented.
 - The texture could be compressed for some resource savings
 - More profiling could be done but I'm already spending a lot of time!
 - all in all this was a fun task!
