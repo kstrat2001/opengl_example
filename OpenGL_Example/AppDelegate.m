@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "GraphicsViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +17,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    UITabBarController *tabBar = (UITabBarController *)self.window.rootViewController;
+    [tabBar setDelegate:self];
     return YES;
+}
+
+-(void) tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
+{
+    for(GraphicsViewController* vc in tabBarController.viewControllers)
+    {
+        [vc pause:YES];
+    }
+    
+    GraphicsViewController* newVC = (GraphicsViewController*)viewController;
+    [newVC pause:NO];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

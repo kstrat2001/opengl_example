@@ -9,12 +9,46 @@
 /* Begin PBXBuildFile section */
 		ACCEB7041B225FBC00D4CFA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7031B225FBC00D4CFA9 /* main.m */; };
 		ACCEB7071B225FBC00D4CFA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7061B225FBC00D4CFA9 /* AppDelegate.m */; };
-		ACCEB70A1B225FBC00D4CFA9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7091B225FBC00D4CFA9 /* FirstViewController.m */; };
-		ACCEB70D1B225FBC00D4CFA9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB70C1B225FBC00D4CFA9 /* SecondViewController.m */; };
 		ACCEB7101B225FBC00D4CFA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCEB70E1B225FBC00D4CFA9 /* Main.storyboard */; };
 		ACCEB7121B225FBC00D4CFA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCEB7111B225FBC00D4CFA9 /* Images.xcassets */; };
 		ACCEB7151B225FBC00D4CFA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACCEB7131B225FBC00D4CFA9 /* LaunchScreen.xib */; };
 		ACCEB7211B225FBC00D4CFA9 /* OpenGL_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7201B225FBC00D4CFA9 /* OpenGL_ExampleTests.m */; };
+		ACCEB7531B22600A00D4CFA9 /* plane.obj in Resources */ = {isa = PBXBuildFile; fileRef = ACCEB72B1B22600A00D4CFA9 /* plane.obj */; };
+		ACCEB7541B22600A00D4CFA9 /* plane.obj in Resources */ = {isa = PBXBuildFile; fileRef = ACCEB72B1B22600A00D4CFA9 /* plane.obj */; };
+		ACCEB7551B22600A00D4CFA9 /* sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = ACCEB72C1B22600A00D4CFA9 /* sphere.obj */; };
+		ACCEB7561B22600A00D4CFA9 /* sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = ACCEB72C1B22600A00D4CFA9 /* sphere.obj */; };
+		ACCEB7571B22600A00D4CFA9 /* texture.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCEB72D1B22600A00D4CFA9 /* texture.png */; };
+		ACCEB7581B22600A00D4CFA9 /* texture.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCEB72D1B22600A00D4CFA9 /* texture.png */; };
+		ACCEB7591B22600A00D4CFA9 /* Drawable.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7321B22600A00D4CFA9 /* Drawable.m */; };
+		ACCEB75A1B22600A00D4CFA9 /* Drawable.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7321B22600A00D4CFA9 /* Drawable.m */; };
+		ACCEB75B1B22600A00D4CFA9 /* Sphere.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7341B22600A00D4CFA9 /* Sphere.mm */; };
+		ACCEB75C1B22600A00D4CFA9 /* Sphere.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7341B22600A00D4CFA9 /* Sphere.mm */; };
+		ACCEB75D1B22600A00D4CFA9 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7371B22600A00D4CFA9 /* EAGLView.m */; };
+		ACCEB75E1B22600A00D4CFA9 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7371B22600A00D4CFA9 /* EAGLView.m */; };
+		ACCEB75F1B22600A00D4CFA9 /* GraphicsDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB73A1B22600A00D4CFA9 /* GraphicsDemoView.m */; };
+		ACCEB7601B22600A00D4CFA9 /* GraphicsDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB73A1B22600A00D4CFA9 /* GraphicsDemoView.m */; };
+		ACCEB7611B22600A00D4CFA9 /* blend.frg in Resources */ = {isa = PBXBuildFile; fileRef = ACCEB73C1B22600A00D4CFA9 /* blend.frg */; };
+		ACCEB7621B22600A00D4CFA9 /* blend.frg in Resources */ = {isa = PBXBuildFile; fileRef = ACCEB73C1B22600A00D4CFA9 /* blend.frg */; };
+		ACCEB7631B22600A00D4CFA9 /* blend.vtx in Resources */ = {isa = PBXBuildFile; fileRef = ACCEB73D1B22600A00D4CFA9 /* blend.vtx */; };
+		ACCEB7641B22600A00D4CFA9 /* blend.vtx in Resources */ = {isa = PBXBuildFile; fileRef = ACCEB73D1B22600A00D4CFA9 /* blend.vtx */; };
+		ACCEB7651B22600A00D4CFA9 /* default.frg in Resources */ = {isa = PBXBuildFile; fileRef = ACCEB73E1B22600A00D4CFA9 /* default.frg */; };
+		ACCEB7661B22600A00D4CFA9 /* default.frg in Resources */ = {isa = PBXBuildFile; fileRef = ACCEB73E1B22600A00D4CFA9 /* default.frg */; };
+		ACCEB7671B22600A00D4CFA9 /* default.vtx in Resources */ = {isa = PBXBuildFile; fileRef = ACCEB73F1B22600A00D4CFA9 /* default.vtx */; };
+		ACCEB7681B22600A00D4CFA9 /* default.vtx in Resources */ = {isa = PBXBuildFile; fileRef = ACCEB73F1B22600A00D4CFA9 /* default.vtx */; };
+		ACCEB7691B22600A00D4CFA9 /* tiny_obj_loader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7411B22600A00D4CFA9 /* tiny_obj_loader.cpp */; };
+		ACCEB76A1B22600A00D4CFA9 /* tiny_obj_loader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7411B22600A00D4CFA9 /* tiny_obj_loader.cpp */; };
+		ACCEB76B1B22600A00D4CFA9 /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7431B22600A00D4CFA9 /* Util.cpp */; };
+		ACCEB76C1B22600A00D4CFA9 /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7431B22600A00D4CFA9 /* Util.cpp */; };
+		ACCEB76D1B22600A00D4CFA9 /* VertexDescriptor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7481B22600A00D4CFA9 /* VertexDescriptor.cpp */; };
+		ACCEB76E1B22600A00D4CFA9 /* VertexDescriptor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7481B22600A00D4CFA9 /* VertexDescriptor.cpp */; };
+		ACCEB76F1B22600A00D4CFA9 /* VertexDescriptorPositionNormalTexcoord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB74A1B22600A00D4CFA9 /* VertexDescriptorPositionNormalTexcoord.cpp */; };
+		ACCEB7701B22600A00D4CFA9 /* VertexDescriptorPositionNormalTexcoord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB74A1B22600A00D4CFA9 /* VertexDescriptorPositionNormalTexcoord.cpp */; };
+		ACCEB7711B22600A00D4CFA9 /* BlendTestViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB74E1B22600A00D4CFA9 /* BlendTestViewController.mm */; };
+		ACCEB7721B22600A00D4CFA9 /* BlendTestViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB74E1B22600A00D4CFA9 /* BlendTestViewController.mm */; };
+		ACCEB7731B22600A00D4CFA9 /* GraphicsViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7501B22600A00D4CFA9 /* GraphicsViewController.mm */; };
+		ACCEB7741B22600A00D4CFA9 /* GraphicsViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7501B22600A00D4CFA9 /* GraphicsViewController.mm */; };
+		ACCEB7751B22600A00D4CFA9 /* TextureTestViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7521B22600A00D4CFA9 /* TextureTestViewController.mm */; };
+		ACCEB7761B22600A00D4CFA9 /* TextureTestViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACCEB7521B22600A00D4CFA9 /* TextureTestViewController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +67,45 @@
 		ACCEB7031B225FBC00D4CFA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ACCEB7051B225FBC00D4CFA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ACCEB7061B225FBC00D4CFA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ACCEB7081B225FBC00D4CFA9 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		ACCEB7091B225FBC00D4CFA9 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		ACCEB70B1B225FBC00D4CFA9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		ACCEB70C1B225FBC00D4CFA9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		ACCEB70F1B225FBC00D4CFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACCEB7111B225FBC00D4CFA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ACCEB7141B225FBC00D4CFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ACCEB71A1B225FBC00D4CFA9 /* OpenGL_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGL_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCEB71F1B225FBC00D4CFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACCEB7201B225FBC00D4CFA9 /* OpenGL_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGL_ExampleTests.m; sourceTree = "<group>"; };
+		ACCEB72B1B22600A00D4CFA9 /* plane.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plane.obj; sourceTree = "<group>"; };
+		ACCEB72C1B22600A00D4CFA9 /* sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.obj; sourceTree = "<group>"; };
+		ACCEB72D1B22600A00D4CFA9 /* texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture.png; sourceTree = "<group>"; };
+		ACCEB72F1B22600A00D4CFA9 /* defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
+		ACCEB7311B22600A00D4CFA9 /* Drawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawable.h; sourceTree = "<group>"; };
+		ACCEB7321B22600A00D4CFA9 /* Drawable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drawable.m; sourceTree = "<group>"; };
+		ACCEB7331B22600A00D4CFA9 /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
+		ACCEB7341B22600A00D4CFA9 /* Sphere.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Sphere.mm; sourceTree = "<group>"; };
+		ACCEB7361B22600A00D4CFA9 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		ACCEB7371B22600A00D4CFA9 /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		ACCEB7381B22600A00D4CFA9 /* EAGLViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLViewDelegate.h; sourceTree = "<group>"; };
+		ACCEB7391B22600A00D4CFA9 /* GraphicsDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsDemoView.h; sourceTree = "<group>"; };
+		ACCEB73A1B22600A00D4CFA9 /* GraphicsDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsDemoView.m; sourceTree = "<group>"; };
+		ACCEB73C1B22600A00D4CFA9 /* blend.frg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = blend.frg; sourceTree = "<group>"; };
+		ACCEB73D1B22600A00D4CFA9 /* blend.vtx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = blend.vtx; sourceTree = "<group>"; };
+		ACCEB73E1B22600A00D4CFA9 /* default.frg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = default.frg; sourceTree = "<group>"; };
+		ACCEB73F1B22600A00D4CFA9 /* default.vtx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = default.vtx; sourceTree = "<group>"; };
+		ACCEB7411B22600A00D4CFA9 /* tiny_obj_loader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tiny_obj_loader.cpp; sourceTree = "<group>"; };
+		ACCEB7421B22600A00D4CFA9 /* tiny_obj_loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiny_obj_loader.h; sourceTree = "<group>"; };
+		ACCEB7431B22600A00D4CFA9 /* Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Util.cpp; sourceTree = "<group>"; };
+		ACCEB7441B22600A00D4CFA9 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		ACCEB7461B22600A00D4CFA9 /* IndexArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexArray.h; sourceTree = "<group>"; };
+		ACCEB7471B22600A00D4CFA9 /* VertexArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexArray.h; sourceTree = "<group>"; };
+		ACCEB7481B22600A00D4CFA9 /* VertexDescriptor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VertexDescriptor.cpp; sourceTree = "<group>"; };
+		ACCEB7491B22600A00D4CFA9 /* VertexDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexDescriptor.h; sourceTree = "<group>"; };
+		ACCEB74A1B22600A00D4CFA9 /* VertexDescriptorPositionNormalTexcoord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VertexDescriptorPositionNormalTexcoord.cpp; sourceTree = "<group>"; };
+		ACCEB74B1B22600A00D4CFA9 /* VertexDescriptorPositionNormalTexcoord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexDescriptorPositionNormalTexcoord.h; sourceTree = "<group>"; };
+		ACCEB74D1B22600A00D4CFA9 /* BlendTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlendTestViewController.h; sourceTree = "<group>"; };
+		ACCEB74E1B22600A00D4CFA9 /* BlendTestViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BlendTestViewController.mm; sourceTree = "<group>"; };
+		ACCEB74F1B22600A00D4CFA9 /* GraphicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsViewController.h; sourceTree = "<group>"; };
+		ACCEB7501B22600A00D4CFA9 /* GraphicsViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GraphicsViewController.mm; sourceTree = "<group>"; };
+		ACCEB7511B22600A00D4CFA9 /* TextureTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureTestViewController.h; sourceTree = "<group>"; };
+		ACCEB7521B22600A00D4CFA9 /* TextureTestViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TextureTestViewController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +147,16 @@
 		ACCEB7001B225FBC00D4CFA9 /* OpenGL_Example */ = {
 			isa = PBXGroup;
 			children = (
+				ACCEB72A1B22600A00D4CFA9 /* Assets */,
+				ACCEB72E1B22600A00D4CFA9 /* Defs.h */,
+				ACCEB7301B22600A00D4CFA9 /* Drawable */,
+				ACCEB7351B22600A00D4CFA9 /* OpenGL */,
+				ACCEB73B1B22600A00D4CFA9 /* Shaders */,
+				ACCEB7401B22600A00D4CFA9 /* Util */,
+				ACCEB7451B22600A00D4CFA9 /* Vertex Data */,
+				ACCEB74C1B22600A00D4CFA9 /* View Controllers */,
 				ACCEB7051B225FBC00D4CFA9 /* AppDelegate.h */,
 				ACCEB7061B225FBC00D4CFA9 /* AppDelegate.m */,
-				ACCEB7081B225FBC00D4CFA9 /* FirstViewController.h */,
-				ACCEB7091B225FBC00D4CFA9 /* FirstViewController.m */,
-				ACCEB70B1B225FBC00D4CFA9 /* SecondViewController.h */,
-				ACCEB70C1B225FBC00D4CFA9 /* SecondViewController.m */,
 				ACCEB70E1B225FBC00D4CFA9 /* Main.storyboard */,
 				ACCEB7111B225FBC00D4CFA9 /* Images.xcassets */,
 				ACCEB7131B225FBC00D4CFA9 /* LaunchScreen.xib */,
@@ -122,6 +189,95 @@
 				ACCEB71F1B225FBC00D4CFA9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACCEB72A1B22600A00D4CFA9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				ACCEB72B1B22600A00D4CFA9 /* plane.obj */,
+				ACCEB72C1B22600A00D4CFA9 /* sphere.obj */,
+				ACCEB72D1B22600A00D4CFA9 /* texture.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		ACCEB72E1B22600A00D4CFA9 /* Defs.h */ = {
+			isa = PBXGroup;
+			children = (
+				ACCEB72F1B22600A00D4CFA9 /* defs.h */,
+			);
+			path = Defs.h;
+			sourceTree = "<group>";
+		};
+		ACCEB7301B22600A00D4CFA9 /* Drawable */ = {
+			isa = PBXGroup;
+			children = (
+				ACCEB7311B22600A00D4CFA9 /* Drawable.h */,
+				ACCEB7321B22600A00D4CFA9 /* Drawable.m */,
+				ACCEB7331B22600A00D4CFA9 /* Sphere.h */,
+				ACCEB7341B22600A00D4CFA9 /* Sphere.mm */,
+			);
+			path = Drawable;
+			sourceTree = "<group>";
+		};
+		ACCEB7351B22600A00D4CFA9 /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				ACCEB7361B22600A00D4CFA9 /* EAGLView.h */,
+				ACCEB7371B22600A00D4CFA9 /* EAGLView.m */,
+				ACCEB7381B22600A00D4CFA9 /* EAGLViewDelegate.h */,
+				ACCEB7391B22600A00D4CFA9 /* GraphicsDemoView.h */,
+				ACCEB73A1B22600A00D4CFA9 /* GraphicsDemoView.m */,
+			);
+			path = OpenGL;
+			sourceTree = "<group>";
+		};
+		ACCEB73B1B22600A00D4CFA9 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				ACCEB73C1B22600A00D4CFA9 /* blend.frg */,
+				ACCEB73D1B22600A00D4CFA9 /* blend.vtx */,
+				ACCEB73E1B22600A00D4CFA9 /* default.frg */,
+				ACCEB73F1B22600A00D4CFA9 /* default.vtx */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		ACCEB7401B22600A00D4CFA9 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				ACCEB7411B22600A00D4CFA9 /* tiny_obj_loader.cpp */,
+				ACCEB7421B22600A00D4CFA9 /* tiny_obj_loader.h */,
+				ACCEB7431B22600A00D4CFA9 /* Util.cpp */,
+				ACCEB7441B22600A00D4CFA9 /* Util.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		ACCEB7451B22600A00D4CFA9 /* Vertex Data */ = {
+			isa = PBXGroup;
+			children = (
+				ACCEB7461B22600A00D4CFA9 /* IndexArray.h */,
+				ACCEB7471B22600A00D4CFA9 /* VertexArray.h */,
+				ACCEB7481B22600A00D4CFA9 /* VertexDescriptor.cpp */,
+				ACCEB7491B22600A00D4CFA9 /* VertexDescriptor.h */,
+				ACCEB74A1B22600A00D4CFA9 /* VertexDescriptorPositionNormalTexcoord.cpp */,
+				ACCEB74B1B22600A00D4CFA9 /* VertexDescriptorPositionNormalTexcoord.h */,
+			);
+			path = "Vertex Data";
+			sourceTree = "<group>";
+		};
+		ACCEB74C1B22600A00D4CFA9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACCEB74F1B22600A00D4CFA9 /* GraphicsViewController.h */,
+				ACCEB7501B22600A00D4CFA9 /* GraphicsViewController.mm */,
+				ACCEB74D1B22600A00D4CFA9 /* BlendTestViewController.h */,
+				ACCEB74E1B22600A00D4CFA9 /* BlendTestViewController.mm */,
+				ACCEB7511B22600A00D4CFA9 /* TextureTestViewController.h */,
+				ACCEB7521B22600A00D4CFA9 /* TextureTestViewController.mm */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +362,14 @@
 			files = (
 				ACCEB7101B225FBC00D4CFA9 /* Main.storyboard in Resources */,
 				ACCEB7151B225FBC00D4CFA9 /* LaunchScreen.xib in Resources */,
+				ACCEB7531B22600A00D4CFA9 /* plane.obj in Resources */,
+				ACCEB7571B22600A00D4CFA9 /* texture.png in Resources */,
 				ACCEB7121B225FBC00D4CFA9 /* Images.xcassets in Resources */,
+				ACCEB7651B22600A00D4CFA9 /* default.frg in Resources */,
+				ACCEB7671B22600A00D4CFA9 /* default.vtx in Resources */,
+				ACCEB7551B22600A00D4CFA9 /* sphere.obj in Resources */,
+				ACCEB7631B22600A00D4CFA9 /* blend.vtx in Resources */,
+				ACCEB7611B22600A00D4CFA9 /* blend.frg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +377,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCEB7681B22600A00D4CFA9 /* default.vtx in Resources */,
+				ACCEB7581B22600A00D4CFA9 /* texture.png in Resources */,
+				ACCEB7561B22600A00D4CFA9 /* sphere.obj in Resources */,
+				ACCEB7641B22600A00D4CFA9 /* blend.vtx in Resources */,
+				ACCEB7541B22600A00D4CFA9 /* plane.obj in Resources */,
+				ACCEB7621B22600A00D4CFA9 /* blend.frg in Resources */,
+				ACCEB7661B22600A00D4CFA9 /* default.frg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +394,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACCEB70D1B225FBC00D4CFA9 /* SecondViewController.m in Sources */,
 				ACCEB7071B225FBC00D4CFA9 /* AppDelegate.m in Sources */,
-				ACCEB70A1B225FBC00D4CFA9 /* FirstViewController.m in Sources */,
+				ACCEB75B1B22600A00D4CFA9 /* Sphere.mm in Sources */,
+				ACCEB7711B22600A00D4CFA9 /* BlendTestViewController.mm in Sources */,
+				ACCEB75D1B22600A00D4CFA9 /* EAGLView.m in Sources */,
 				ACCEB7041B225FBC00D4CFA9 /* main.m in Sources */,
+				ACCEB76F1B22600A00D4CFA9 /* VertexDescriptorPositionNormalTexcoord.cpp in Sources */,
+				ACCEB75F1B22600A00D4CFA9 /* GraphicsDemoView.m in Sources */,
+				ACCEB7691B22600A00D4CFA9 /* tiny_obj_loader.cpp in Sources */,
+				ACCEB7751B22600A00D4CFA9 /* TextureTestViewController.mm in Sources */,
+				ACCEB7591B22600A00D4CFA9 /* Drawable.m in Sources */,
+				ACCEB76D1B22600A00D4CFA9 /* VertexDescriptor.cpp in Sources */,
+				ACCEB76B1B22600A00D4CFA9 /* Util.cpp in Sources */,
+				ACCEB7731B22600A00D4CFA9 /* GraphicsViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +415,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACCEB7211B225FBC00D4CFA9 /* OpenGL_ExampleTests.m in Sources */,
+				ACCEB7761B22600A00D4CFA9 /* TextureTestViewController.mm in Sources */,
+				ACCEB7601B22600A00D4CFA9 /* GraphicsDemoView.m in Sources */,
+				ACCEB76E1B22600A00D4CFA9 /* VertexDescriptor.cpp in Sources */,
+				ACCEB7701B22600A00D4CFA9 /* VertexDescriptorPositionNormalTexcoord.cpp in Sources */,
+				ACCEB7721B22600A00D4CFA9 /* BlendTestViewController.mm in Sources */,
+				ACCEB75E1B22600A00D4CFA9 /* EAGLView.m in Sources */,
+				ACCEB7741B22600A00D4CFA9 /* GraphicsViewController.mm in Sources */,
+				ACCEB75A1B22600A00D4CFA9 /* Drawable.m in Sources */,
+				ACCEB76A1B22600A00D4CFA9 /* tiny_obj_loader.cpp in Sources */,
+				ACCEB75C1B22600A00D4CFA9 /* Sphere.mm in Sources */,
+				ACCEB76C1B22600A00D4CFA9 /* Util.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +612,7 @@
 				ACCEB7261B225FBC00D4CFA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACCEB7271B225FBC00D4CFA9 /* Build configuration list for PBXNativeTarget "OpenGL_ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +621,7 @@
 				ACCEB7291B225FBC00D4CFA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
