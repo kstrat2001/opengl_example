@@ -247,6 +247,7 @@ int __OPENGLES_VERSION = 0;
         {
             _context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2];
             __OPENGLES_VERSION = 2;
+            _multisampling = false;
         }
 #endif
 #endif
@@ -257,6 +258,7 @@ int __OPENGLES_VERSION = 0;
 				return nil;
 			}
 			__OPENGLES_VERSION = 1;
+            _multisampling = false;
 		}
 		
 		if(![self _createSurface]) {
